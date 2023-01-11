@@ -15,10 +15,11 @@
   },
   "production": {
     "username": "root",
-    "password": "Zrp...A29",
+    "password": "JdwSctx8E12cyIda0k8Q",
     "database": "railway",
-    "host": "containers-us-west-XYZ.railway.app",
-    "port": "7254",
-    "dialect": "mysql"
+    "host": "containers-us-west-126.railway.app",
+    "port": "5935",
+    "dialect": "mysql",
+    "url": "mysql://${{ MYSQLUSER }}:${{ MYSQLPASSWORD }}@${{ MYSQLHOST }}:${{ MYSQLPORT }}/${{ MYSQLDATABASE }}"
   }
 }
