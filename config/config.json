@@ -19,7 +19,6 @@
     "database": "railway",
     "host": "containers-us-west-126.railway.app",
     "port": "5935",
-    "dialect": "mysql",
-    "url": "mysql://${{ MYSQLUSER }}:${{ MYSQLPASSWORD }}@${{ MYSQLHOST }}:${{ MYSQLPORT }}/${{ MYSQLDATABASE }}"
+    "dialect": "mysql"
   }
 }
